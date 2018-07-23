@@ -1,4 +1,5 @@
-﻿namespace gateTest
+//Andreia Zanette -
+namespace gateTest
 {
     partial class Form1
     {
