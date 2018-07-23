@@ -9,23 +9,23 @@ static class Program
     static void Main()
     {
 
-        int[] numeros = ParseNumberFile("agenda.txt");
+        int[] numeros = ParseNumberFile("agenda.txt"); // Array de inteiros
     }
 
     static int[] ParseNumberFile(string filename)
     {
-        string fileContent = File.ReadAllText(filename);
+        string fileContent = File.ReadAllText(filename); //le o arquivo .txt
 
         string[] integerStrings = fileContent.Split(new char[] { ' ', '\t', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
 
-        int[] integers = new int[integerStrings.Length];
+        int[] integers = new int[integerStrings.Length]; 
 
         for (int n = 0; n < integerStrings.Length; n++)
             integers[n] = int.Parse(integerStrings[n]);
 
 
 
-        return integers;
+        return integers; // aloca a lista de numeros 
     }
 
 }
