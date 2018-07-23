@@ -1,4 +1,5 @@
-//Andreia Zanette - Em C#, encontre o maior numero inteiro em um array. 
+//Andreia Zanette -  Em C#, me passe a lista de arquivos texto em um diretório específico 
+//quem possuem em seu conteúdo números de telefone em um formato específico
 
 using System;
 using System.IO;
