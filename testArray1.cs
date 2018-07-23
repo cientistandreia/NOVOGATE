@@ -1,4 +1,4 @@
-//Andreia Zanette
+//Andreia Zanette - Em C#, encontre o maior numero inteiro em um array. 
 
 using System;
 using System.IO;
