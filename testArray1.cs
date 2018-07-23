@@ -1,4 +1,6 @@
-﻿using System;
+//Andreia Zanette
+
+using System;
 using System.IO;
 
 static class Program
